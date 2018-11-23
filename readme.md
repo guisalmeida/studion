@@ -1,3 +1,3 @@
 # Git Studion
 
-alteração
+Repositório do site StudiOn feito nas aulas de front-end
