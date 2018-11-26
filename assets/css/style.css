@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: inline-block;
+    margin: 0;
+    float: left;
+}
+
+header {
+    padding: 30px 0;
+}
+
+footer {
+    background-color: black;
+}
+
+nav {
+    float: right;
+}
+
+.header-menu {
+    
+}
+
+.header-menu a {
+    font-size: 14px;
+    padding: 18px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.banner-fundo {
+    width: 100%;
+} 
+
+h5 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+.laranja {
+    color: #ffc500;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header-menu a:hover {
+    color: #ffc500;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+}
