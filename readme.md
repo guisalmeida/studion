@@ -1,4 +1,4 @@
-# Git Studion
+# Site de eventos - Studion
 
 Repositório do site StudiOn feito para salvar a evolução nas aulas de front-end.
 

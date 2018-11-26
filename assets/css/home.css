@@ -1,0 +1,135 @@
+.banner {
+    height: 700px;
+    background-color: var(--dark);
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.banner-content {
+    width: 620px;
+    margin-top: 80px;
+    color: var(--light);
+}
+
+.banner-content p {
+    color: var(--light);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.banner-content h2 {
+    color: var(--light);
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 40px 0;
+    line-height: 1;
+}
+
+.statistics {
+    width: 100%;
+    background-color: var(--primary);
+    padding: 80px 0;
+}
+
+.statistics-item {
+    display: inline-block;
+    text-align: left;
+    margin: 0 60px;
+    font-weight: bold;
+}
+
+.statistics-item h2 {
+    font-size: 35px;
+    margin: 0;
+    color: var(--light);
+}
+
+.statistics-item small {
+    font-size: 20px;
+    display: block;
+}
+
+/* Institutional */
+.institutional {
+    padding: 60px 0;
+}
+
+.institutional-image {
+    float: left;
+}
+
+.institutional-content {
+    float: right;
+    width: 430px;
+    /* padding: 100px 0; */
+    margin-top: 100px;
+}
+
+.institutional-content h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.institutional-content h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.institutional-content p {
+    font-size: 17px;
+    line-height: 27px;
+    margin: 0 0 30px;
+}
+
+
+
+/* Parallax */
+
+.parallax {
+    padding: 60px 0;
+    background-image: url(../images/parallax.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.parallax-content {
+    width: 50%;
+    background-color: var(--light);
+    padding: 50px;
+    float: right;
+}
+
+.parallax-content h2 {
+    margin: 0 0 30px;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.parallax-content h2 small {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+

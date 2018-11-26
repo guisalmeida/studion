@@ -1,0 +1,95 @@
+.footer {
+    background-color: var(--dark);
+    color: white;
+    margin: 0;
+    
+}
+
+.footer-top {
+    padding: 60px 0;
+    
+}
+
+.footer-news label {
+    font-size: 14px;
+    text-transform: lowercase;
+    display: inline-block;
+    float: left;
+    padding: 6px 15px 0 0;
+}
+
+.footer-news input {
+    background-color: var(--primary);
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 48px;
+    width: 280px;
+    float: left;
+    outline: none;
+}
+
+.footer-news input:focus {
+    background-color: var(--light);
+}
+
+.footer-news button {
+    background-color: var(--light);
+    height: 48px;
+    width: 48px;
+    border: none;
+    font-size: 26px;
+    float: left;
+    outline: none;
+}
+
+.footer-news button:hover {
+    background-color: var(--primary);
+    cursor: pointer;
+    color: var(--light);
+}
+
+.footer-copyright {
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+.footer-col {
+    width: 30%;
+    float: left;
+}
+
+.footer-col:nth-child(2) {
+    width: 40%;
+}
+
+.footer-social {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.footer-social li {
+    display: inline-block;
+    color: var(--light);
+    
+}
+
+.footer-social li a {
+    display: block;
+    text-decoration: none;
+    color: var(--light);
+    font-size: 25px;
+    padding: 10px 5px;
+    
+}
+
+.footer-social li a:hover {
+    color: var(--primary);
+}
