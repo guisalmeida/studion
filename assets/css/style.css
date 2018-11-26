@@ -7,6 +7,17 @@ body {
     box-sizing: border-box;
 }
 
+input, textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -236,6 +247,47 @@ nav {
     
 }
 
+.footer-news label {
+    font-size: 14px;
+    text-transform: lowercase;
+    display: inline-block;
+    float: left;
+    padding: 6px 15px 0 0;
+}
+
+.footer-news input {
+    background-color: #ffc500;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 48px;
+    width: 280px;
+    float: left;
+    outline: none;
+}
+
+.footer-news input:focus {
+    background-color: #fff;
+}
+
+.footer-news button {
+    background-color: #fff;
+    height: 48px;
+    width: 48px;
+    border: none;
+    font-size: 26px;
+    float: left;
+    outline: none;
+}
+
+.footer-news button:hover {
+    background-color: #ffc500;
+    cursor: pointer;
+    color: #fff;
+}
+
 .footer-copyright {
     padding: 20px 0;
     font-size: 14px;
@@ -251,4 +303,30 @@ nav {
 
 .footer-col:nth-child(2) {
     width: 40%;
+}
+
+.footer-social {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.footer-social li {
+    display: inline-block;
+    color: #fff;
+    
+}
+
+.footer-social li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 5px;
+    
+}
+
+.footer-social li a:hover {
+    color: #ffc500;
 }
