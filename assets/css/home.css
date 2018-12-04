@@ -43,13 +43,21 @@
     background-color: var(--primary);
     padding: 80px 0;
 }
+/* flexbox*/
+.statistics .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-.statistics-item {
+/*.statistics-item {
     display: inline-block;
     text-align: left;
     margin: 0 60px;
     font-weight: bold;
 }
+*/
 
 .statistics-item h2 {
     font-size: 35px;
@@ -67,15 +75,29 @@
     padding: 60px 0;
 }
 
-.institutional-image {
+/*.institutional-image {
     float: left;
-}
+}*/
 
 .institutional-content {
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+   /* float: right; */
     width: 430px;
+    height: 340px;
     /* padding: 100px 0; */
-    margin-top: 100px;
+   /* margin-top: 100px; */
+}
+
+/* flexbox */
+
+.institutional .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
 .institutional-content h3 {
@@ -89,13 +111,14 @@
 .institutional-content h2 {
     font-size: 25px;
     margin: 0;
-    padding: 30px 0;
+    /*padding: 30px 0; apaguei para usar flexbox dentro da div .institutional-content para alinhar os textos */
 }
 
 .institutional-content p {
     font-size: 17px;
     line-height: 27px;
-    margin: 0 0 30px;
+    margin: 0;
+   /* margin: 0 0 30px; apaguei para usar flexbox dentro da div .institutional-content para alinhar os textos */
 }
 
 
@@ -110,11 +133,17 @@
     background-attachment: fixed;
 }
 
+/* Flexbox no Parallax*/
+.parallax .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .parallax-content {
     width: 50%;
     background-color: var(--light);
     padding: 50px;
-    float: right;
+    /*float: right;*/
 }
 
 .parallax-content h2 {

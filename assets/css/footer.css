@@ -5,6 +5,13 @@
     
 }
 
+.footer .container .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer-top {
     padding: 60px 0;
     
@@ -59,14 +66,14 @@
     
 }
 
-.footer-col {
+/*.footer-col {
     width: 30%;
     float: left;
 }
 
 .footer-col:nth-child(2) {
     width: 40%;
-}
+}*/
 
 .footer-social {
     list-style: none;
