@@ -1,164 +1,119 @@
+/* Banner */
 .banner {
-    height: 700px;
-    background-color: var(--dark);
-    background-image: url('../images/banner.jpg');
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
+  height: 700px;
+  background-color: var(--dark);
+  background-image: url("../images/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 .banner .container {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
-
 .banner-content {
-    width: 620px;
-    margin-top: 80px;
-    color: var(--light);
+  width: 620px;
+  margin-top: 80px;
+  color: var(--light);
 }
 
 .banner-content p {
-    color: var(--light);
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
 }
 
 .banner-content h2 {
-    color: var(--light);
-    font-size: 100px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 40px 0;
-    line-height: 1;
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 20px 0;
 }
 
+/* Statistics */
 .statistics {
-    width: 100%;
-    background-color: var(--primary);
-    padding: 80px 0;
-}
-/* flexbox*/
-.statistics .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  background: var(--primary);
+  padding: 80px 0;
 }
 
-/*.statistics-item {
-    display: inline-block;
-    text-align: left;
-    margin: 0 60px;
-    font-weight: bold;
+.statistics-item {
+  display: inline-block;
+  margin: 0 60px;
 }
-*/
 
 .statistics-item h2 {
-    font-size: 35px;
-    margin: 0;
-    color: var(--light);
+  margin: 0;
+  color: var(--light);
+  font-size: 35px;
+  text-transform: uppercase;
 }
 
 .statistics-item small {
-    font-size: 20px;
-    display: block;
-}
+  font-size: 20px;
+  display: block;
+} 
 
 /* Institutional */
 .institutional {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
-/*.institutional-image {
-    float: left;
-}*/
+.institutional-image {
+  float: left;
+}
 
 .institutional-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: space-around;
-   /* float: right; */
-    width: 430px;
-    height: 340px;
-    /* padding: 100px 0; */
-   /* margin-top: 100px; */
-}
-
-/* flexbox */
-
-.institutional .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
+  float: right;
+  width: 430px;
+  margin-top: 115px;
 }
 
 .institutional-content h3 {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 0;
-    font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .institutional-content h2 {
-    font-size: 25px;
-    margin: 0;
-    /*padding: 30px 0; apaguei para usar flexbox dentro da div .institutional-content para alinhar os textos */
+  font-size: 25px;
 }
 
 .institutional-content p {
-    font-size: 17px;
-    line-height: 27px;
-    margin: 0;
-   /* margin: 0 0 30px; apaguei para usar flexbox dentro da div .institutional-content para alinhar os textos */
+  font-size: 17px;
+  line-height: 27px;
 }
-
-
 
 /* Parallax */
-
 .parallax {
-    padding: 60px 0;
-    background-image: url(../images/parallax.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-/* Flexbox no Parallax*/
-.parallax .container {
-    display: flex;
-    justify-content: flex-end;
+  padding: 60px 0;
+  background-image: url(../images/parallax.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .parallax-content {
-    width: 50%;
-    background-color: var(--light);
-    padding: 50px;
-    /*float: right;*/
+  width: 55%;
+  background-color: var(--light);
+  float: right;
+  padding: 50px;  
 }
 
 .parallax-content h2 {
-    margin: 0 0 30px;
-    font-size: 80px;
-    text-transform: uppercase;
-    line-height: 1;
+  margin: 0 0 30px;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 1;
 }
 
-.parallax-content h2 small {
-    margin: 0;
-    font-size: 15px;
-    line-height: 1.5;
-    display: block;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+.parallax-content small {
+  font-size: 15px;
+  line-height: 23px;
+  display: block;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
 }
-
