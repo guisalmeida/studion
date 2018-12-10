@@ -7,6 +7,17 @@ body {
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 25px;
+  margin: 0 0 30px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 20px;
+  line-height: 1.8;
+}
+
 input, textarea {
   font-family: 'Montserrat', sans-serif;
 }
@@ -39,7 +50,6 @@ input, textarea {
   height: 550px;
   background-color: var(--dark);
   color: var(--light);
-  background-image: url("../images/contact.jpg");
   background-size: cover;
   background-position: center center;
 }

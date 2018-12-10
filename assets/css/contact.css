@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.contact-page {
+  background-image: url("../images/contact.jpg");
+}
+
 .contact-col {
   width: 50%;
   padding: 50px 0;
@@ -56,34 +60,44 @@
 .contact-form label {
   display: block;
   font-size: 16px;
-  margin-bottom: 5px;
   font-weight: bold;
   margin-bottom: 3px;
 }
 
-.contact-form input:not(.btn), 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  }
+
+.contact-form .btn {
+  align-self: flex-end;
+}
+
+.contact-form input:not([type=submit]), 
 .contact-form textarea {
   width: 100%;
-}
-
-.contact-form submit {
-  
-}
-
-.contact-form input {
+  margin-bottom: 20px;
+  background-color: transparent;
   border: 0;
+  border-bottom: 1px solid var(--light);
   outline: none;
-  font-size: 14px;
-  text-transform: uppercase;
+  color: var(--light);
   font-weight: bold;
-  padding: 0 10px;
-  height: 48px;
-  float: left;
-  width: 280px;
+  font-size: 16px;
+  padding: 10px;
+  resize: none;
 }
 
-.contact-form input:focus {
-  background-color: var(--light);
+.contact-form input:not([type=submit]):hover, 
+.contact-form textarea:hover {
+  border-color: var(--primary);
+}
+
+.contact-form input:not([type=submit]):focus, 
+.contact-form textarea:focus {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--dark);
 }
 
 .contact-form button {
