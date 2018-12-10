@@ -62,6 +62,11 @@
   padding: 60px 0;
 }
 
+.institutional .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .institutional-image {
   float: left;
 }
