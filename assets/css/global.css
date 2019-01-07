@@ -61,15 +61,15 @@ input, textarea {
 }
 
 .page-top-content {
-  width: 50%;
+  width: 55%;
 }
 
 .page-top-title {
   margin: 0 0 30px;
-  font-size: 120px;
+  font-size: 100px;
   color: var(--primary);
   text-transform: lowercase;
-  letter-spacing: -4px;
+  letter-spacing: -8px;
 }
 
 .page-top-title::before {

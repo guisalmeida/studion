@@ -1,0 +1,8 @@
+.company-page {
+    background-image: url("../images/depoiments.jpg");
+}
+
+.depoiments {
+    padding: 80px 0;
+    background-color: var(--primary);
+}

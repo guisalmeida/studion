@@ -8,6 +8,7 @@
   border: 2px solid var(--light);
   padding: 10px 30px;
   border-radius: 30px;
+  white-space: nowrap;
 }
 .btn:hover {
   border-color: var(--primary);
@@ -35,3 +36,8 @@
   border-color: var(--dark); 
   color: var(--light);
 }
+
+.btn4 {
+  border-color: transparent;
+}
+
