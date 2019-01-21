@@ -2,11 +2,11 @@
 .banner {
   height: 700px;
   background-color: var(--dark);
-  background-image: url("../images/banner.jpg");
   background-position: center center;
   background-size: cover;
-  display: flex;
+  display: flex !important;
   align-items: center;
+  outline: none;
 }
 
 .banner .container {
@@ -32,6 +32,14 @@
   text-transform: uppercase;
   line-height: 1;
   margin: 20px 0;
+}
+
+.banners .prev-arrow {
+  left: 30px;
+}
+
+.banners .next-arrow {
+  right: 30px;
 }
 
 /* Statistics */
@@ -90,10 +98,6 @@
 /* Parallax */
 .parallax {
   padding: 60px 0;
-  background-image: url(../images/parallax.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
 }
 
 .parallax-content {

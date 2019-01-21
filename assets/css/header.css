@@ -1,6 +1,7 @@
 .header {
   padding: 30px 0;
   position: absolute;
+  z-index: 2;
   width: 100%;
 }
 
@@ -17,6 +18,7 @@
   text-transform: uppercase;
   padding: 18px 10px;
   display: inline-block;
+  transition: all 0.5s ease;
 }
 
 .header-menu a:hover {

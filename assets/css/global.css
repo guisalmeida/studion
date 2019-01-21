@@ -14,18 +14,17 @@ h2 {
 
 p {
   font-size: 16px;
-  margin: 0 0 20px;
   line-height: 1.8;
+  margin: 0 0 20px;
 }
 
 input, textarea {
   font-family: 'Montserrat', sans-serif;
+  transition: all 0.5s ease;
 }
-
 ::-webkit-input-placeholder {
   color: var(--dark);
 }
-
 ::-moz-placeholder {
   color: var(--dark);
 }
@@ -48,8 +47,8 @@ input, textarea {
 .page-top {
   display: flex;
   height: 550px;
-  background-color: var(--dark);
   color: var(--light);
+  background-color: var(--dark);
   background-size: cover;
   background-position: center center;
 }
@@ -62,23 +61,22 @@ input, textarea {
 
 .page-top-content {
   width: 55%;
+  padding-top: 50px;
 }
 
 .page-top-title {
   margin: 0 0 30px;
   font-size: 100px;
-  color: var(--primary);
   text-transform: lowercase;
   letter-spacing: -8px;
+  color: var(--primary);
 }
-
 .page-top-title::before {
-  content: ".";
+  content: "."
 }
 
 .page-top-description {
   margin: 0;
   font-size: 15px;
-  line-height: 30px;
-  color: #cccccc;
+  line-height: 2;
 }
