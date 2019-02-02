@@ -44,7 +44,7 @@
 .prev-arrow,
 .next-arrow {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top: 50%;
   margin-top: -35px;
   border: 0;
@@ -54,7 +54,6 @@
   cursor: pointer;
   opacity: 0.5;
   transition: all .3s ease;
-
 }
 
 .prev-arrow {
@@ -98,4 +97,10 @@
 
 .slick-dots .slick-active button {
   background-color: var(--dark);
+}
+
+@media (max-width:768px) {
+  .prev-arrow, .next-arrow {
+    top: 90%;
+  }
 }

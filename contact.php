@@ -11,51 +11,77 @@
     </section>
 
     <section class="contact">
-      <div class="contact-col">
-        <div class="contact-content">
-          <div class="contact-info">
-            <h2 class="contact-title">Liga pra gente</h2>
-            
-            <p class="contact-description">
-              <i class="fas fa-phone"></i> +55 48 3223-5769
-            </p>
-
-            <p class="contact-description">
-              <i class="fab fa-whatsapp"></i> +55 48 99943-7777
-            </p>
-          </div>
-
-          <div class="contact-info">
-            <h2 class="contact-title">Venha conhecer nossa casa</h2>
-            
-            <address class="contact-description">
-                <i class="fas fa-map-marker-alt"></i> Rua Miguel Daux, 129 - Coqueiros<br> Florianópolis / SC
-            </address>
+      <div class="container">
+        <div class="contact-col">
+          <div class="contact-content">
+            <div class="contact-info">
+              <h2 class="contact-title">Liga pra gente</h2>
+              
+              <p class="contact-description">
+                <i class="fas fa-phone"></i> +55 48 3223-5769
+              </p>
+  
+              <p class="contact-description">
+                <i class="fab fa-whatsapp"></i> +55 48 99943-7777
+              </p>
+            </div>
+  
+            <div class="contact-info">
+              <h2 class="contact-title">Venha conhecer nossa casa</h2>
+              
+              <address class="contact-description">
+                  <i class="fas fa-map-marker-alt"></i> Rua Miguel Daux, 129 - Coqueiros<br> Florianópolis / SC
+              </address>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="contact-col">
-        <div class="contact-content">
-          <h2 class="contact-title">Deixe sua mensagem</h2>
-
-          <form action="#" class="contact-form">
-            <label for="nome">Seu nome</label>
-            <input type="text" id="nome">
-
-            <label for="email">Seu e-mail</label>
-            <input type="email" id="email">
-
-            <label for="mensagem">Sua mensagem</label>
-            <textarea id="mensagem" rows="2"></textarea>
-
-            <input type="submit" value="Enviar" class="btn btn2">
-          </form>
+        
+        <div class="contact-col-black">
+          <div class="contact-content">
+            <h2 class="contact-title">Deixe sua mensagem</h2>
+    
+            <form action="#" class="contact-form">
+              <label for="nome">Seu nome</label>
+              <input type="text" id="nome">
+    
+              <label for="email">Seu e-mail</label>
+              <input type="email" id="email">
+    
+              <label for="mensagem">Sua mensagem</label>
+              <textarea id="mensagem" rows="2"></textarea>
+    
+              <input type="submit" value="Enviar" class="btn btn2">
+            </form>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="map"></section>
+
+    <section class="contact-black">
+      <div class="container">
+        <div class="contact-col">
+          <div class="contact-content">
+            <h2 class="contact-title">Deixe sua mensagem</h2>
+    
+            <form action="#" class="contact-form">
+              <label for="nome">Seu nome</label>
+              <input type="text" id="nome">
+    
+              <label for="email">Seu e-mail</label>
+              <input type="email" id="email">
+    
+              <label for="mensagem">Sua mensagem</label>
+              <textarea id="mensagem" rows="2"></textarea>
+    
+              <input type="submit" value="Enviar" class="btn btn2">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiqNseBACIMgm6zH_w7XmJZ7v49gUVtlQ"></script>

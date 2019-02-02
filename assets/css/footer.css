@@ -4,15 +4,20 @@
 }
 
 .footer-top {
+  display: flex;
+  align-items: center;
   padding: 60px 0;
 }
 
 .footer-col {
-  width: 30%;
+  width: 25%;
   float: left;
 }
+
 .footer-col:nth-child(2) {
-  width: 40%;
+  display: flex;
+  justify-content: center;
+  width: 50%;
 }
 
 .footer-news label {
@@ -20,6 +25,14 @@
   text-transform: lowercase;
   float: left;
   padding: 6px 15px 0 0;
+}
+
+.footer-news label:first-child {
+  display: none;
+}
+
+.footer-news button:last-child {
+  display: none;
 }
 
 .footer-news input {
@@ -31,7 +44,7 @@
   padding: 0 10px;
   height: 48px;
   float: left;
-  width: 280px;
+  width: 270px;
   outline: none;
 }
 .footer-news input:focus {
@@ -78,4 +91,121 @@
   font-size: 14px;
   text-align: center;
   border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+@media (max-width: 1200px) {
+  .footer-col:last-child {
+    width: 20%;
+  }
+
+  .footer-col:nth-child(2) {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-col:first-child {
+    width: 25%;
+  }
+  
+  .footer-col:last-child {
+    width: 25%;
+  }
+
+  .footer-col:nth-child(2) {
+    width: 50%;
+  }
+
+  .footer-news input {
+    width: 180px;
+  }
+
+  .footer-col img {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 100%;
+    float: none;
+  }
+
+  .footer-col:first-child {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-col img {
+    display: none;
+  }
+
+  .footer-col:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+  }
+
+  .footer-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-news label:first-child {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .footer-news label:nth-child(2) {
+    display: none;
+  }
+  
+  .footer-news label, .footer-news input, .footer-news button {
+    float: none;
+  }
+  
+  .footer-news input {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .footer-news button:nth-child(4) {
+    display: none;
+  }
+
+  .footer-news button:last-child {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .footer-col:last-child {
+    width: 100%;
+  }
+
+  .footer-social {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-social li a {
+    font-size: 40px;
+    padding: 10px 20px;
+  }
 }

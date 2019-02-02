@@ -5,6 +5,7 @@
 			<div class="container">
 				<div class="banner-content">
 					<p><span class="yellow">Próximo evento</span> - dia 25 de setembro às 19h</p>
+					<p><span class="yellow">Próximo evento</span><br>dia 25 de setembro às 19h</p>
 					<h2><span class="yellow">Creative</span> Minds</h2>
 					<a href="#" class="btn">Saiba mais</a>
 				</div>
@@ -15,6 +16,7 @@
 			<div class="container">
 				<div class="banner-content">
 					<p><span class="yellow">Próximo evento</span> - dia 19 de agosto às 19h</p>
+					<p><span class="yellow">Próximo evento</span><br>dia 25 de setembro às 19h</p>
 					<h2><span class="yellow">Fast</span> Forward</h2>
 					<a href="#" class="btn">Saiba mais</a>
 				</div>
@@ -25,6 +27,7 @@
 			<div class="container">
 				<div class="banner-content">
 					<p><span class="yellow">Próximo evento</span> - dia 24 de março às 19h</p>
+					<p><span class="yellow">Próximo evento</span><br>dia 25 de setembro às 19h</p>
 					<h2><span class="yellow">Show</span> Events</h2>
 					<a href="#" class="btn">Saiba mais</a>
 				</div>
@@ -48,11 +51,11 @@
 		</div>
 	</section>
 
-	<section class="institutional clearfix">
+	<section class="institutional">
 		<div class="container">
-			<div class="institutional-image">
+			<figure class="institutional-image">
 				<img src="assets/images/institutional.jpg">
-			</div>
+			</figure>
 
 			<div class="institutional-content">
 				<h3>Fazemos seu evento acontecer</h3>
@@ -64,7 +67,7 @@
 		</div>
 	</section>
 
-	<section class="parallax clearfix" data-parallax="scroll" data-image-src="assets/images/parallax.jpg">
+	<section class="parallax" data-parallax="scroll" data-image-src="assets/images/parallax.jpg">
 		<div class="container">
 			<div class="parallax-content">
 				<h2>

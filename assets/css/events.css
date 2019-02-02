@@ -3,11 +3,17 @@
 }
 
 .events {
+  width: 100vw;
   padding: 80px 0;
+}
+
+.events .container {
+  width: 100%;
 }
 
 .events-item {
   display: flex;
+  width: 100%;
   padding: 30px;
   border-bottom: 1px solid #cccccc;
 }
@@ -21,17 +27,19 @@
 
 .events-content {
   flex: 1;
+  width: 100%;
 }
 
 .events-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 192px;
+  width: 100%;
 }
 
 .events-title {
   font-size: 20px;
+  width: 100%;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: var(--primary);
@@ -45,6 +53,7 @@
   font-weight: bold;
   letter-spacing: 3px;
   margin: 20px 0;
+  width: 100%;
 }
 .events-date i {
   color: var(--primary);
@@ -55,14 +64,27 @@
 .events-info {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 .events-info p {
-  margin: 0 50px 0 0;
+  margin: 0 20px 0 0;
+  width: 60%;
+}
+
+.events-info a {
+  width: 30%;
+  text-align: center;
 }
 
 .events-description {
   margin-top: 60px;
   display: none;
+  width: 100%;
+}
+
+.events-description p {
+  width: 100%;
 }
 
 .events-footer {
@@ -70,11 +92,19 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
+  width: 100%;
+}
+
+.events-footer a {
+  width: 30%;
+  padding: 0;
+  text-align: center;
 }
 
 .events-address {
   display: flex;
   font-style: normal;
+  width: 70%;
 }
 
 .events-address > i {
@@ -93,4 +123,86 @@
 .events-local > p {
   margin: 0;
   font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .events-info a {
+    width: 35%;
+  }
+}
+
+@media (max-width: 992px) {
+  .events-info a {
+    white-space: normal;
+    padding: 10px 10px;
+    width: 35%;
+  }
+
+  .events-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .events-address {
+    width: 100%;
+  }
+
+  .events-footer a {
+    width: 100%;
+    padding: 10px 10px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  .events-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .events-photo {
+    margin: 30px 0 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .events-photo img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .events {
+    padding: 0;
+  }
+
+  .events-header {
+    text-align: center;
+  }
+
+  .events-date {
+    justify-content: center;
+  }
+
+  .events-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .events-info a {
+    width: 100%;
+  }
+
+  .events-info p {
+    margin: 0 0 20px;
+    width: 100%;
+  }
+
+  .events-description > p {
+    text-align: center;
+  }
 }

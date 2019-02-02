@@ -12,6 +12,7 @@ $(document).ready(function(){
         pauseOnFocus: false,
         prevArrow: "<button class='prev-arrow'></button>",
         nextArrow: "<button class='next-arrow'></button>",
+        dots: false
     });
 
     $('.depoiments .container').slick({

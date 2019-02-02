@@ -46,3 +46,37 @@
   line-height: 1;
   height: 50px;
 }
+
+@media (max-width: 768px) {
+  .depoiments-description {
+    width: 80%;
+  }
+
+  .depoiments-name {
+    width: 80%;
+  }
+
+  .depoiments-subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-slide img {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+
+  .depoiments-title {
+    font-size: 30px;
+  }
+
+  .depoiments-subtitle {
+    font-size: 12px;
+  }
+
+  .depoiments-description {
+    font-size: 14px;
+  }
+}
