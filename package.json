@@ -1,0 +1,28 @@
+{
+  "name": "studion",
+  "version": "1.0.0",
+  "description": "Studion Eventos is a fictional site, which is being created to study the practices of basics html5, css3, JS and other knowledge.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiSAlmeida/studion.git"
+  },
+  "keywords": [],
+  "author": "Guilherme Almeida <guisalmeida.dev@gmail.com> (https://guisalmeida.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuiSAlmeida/studion/issues"
+  },
+  "homepage": "https://github.com/GuiSAlmeida/studion#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
