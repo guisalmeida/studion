@@ -1,28 +1,28 @@
-.depoiments-page {
-  background-image: url("../assets/images/depoiments.jpg");
+.reviews-page {
+  background-image: url("../assets/images/reviews.jpg");
 }
 
-.depoiments {
+.reviews {
   padding: 80px 0;
   background: var(--primary);
 }
 
-.depoiments-item {
+.reviews-item {
   text-align: center;
   outline: none;
 }
 
-.depoiments-header {
+.reviews-header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.depoiments-title {
+.reviews-title {
   margin: 0;
   font-size: 50px;
 }
-.depoiments-subtitle {
+.reviews-subtitle {
   margin: 0;
   font-size: 16px;
   font-weight: normal;
@@ -30,12 +30,12 @@
   text-align: right;
 }
 
-.depoiments-description {
+.reviews-description {
   position: relative;
   margin: 80px auto 0;
   width: 600px;
 }
-.depoiments-description::before {
+.reviews-description::before {
   content: "“";
   position: absolute;
   top: -60px;
@@ -48,15 +48,15 @@
 }
 
 @media (max-width: 768px) {
-  .depoiments-description {
+  .reviews-description {
     width: 80%;
   }
 
-  .depoiments-name {
+  .reviews-name {
     width: 80%;
   }
 
-  .depoiments-subtitle {
+  .reviews-subtitle {
     text-align: center;
   }
 }
@@ -68,15 +68,15 @@
     height: auto;
   }
 
-  .depoiments-title {
+  .reviews-title {
     font-size: 30px;
   }
 
-  .depoiments-subtitle {
+  .reviews-subtitle {
     font-size: 12px;
   }
 
-  .depoiments-description {
+  .reviews-description {
     font-size: 14px;
   }
 }

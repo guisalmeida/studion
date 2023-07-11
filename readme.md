@@ -1,6 +1,6 @@
 # *__Studion__*
 
->Studion Eventos is a fictional site, which is being created to study the practices of basics html5, css3, JS and other knowledge.
+>Studion Events is a fictional site, which is being created to study the practices of basics html5, css3, JS and other knowledge.
  
 ![Layout](public/assets/images/layout-home.jpg)
 

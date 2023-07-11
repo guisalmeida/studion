@@ -25,6 +25,7 @@
   text-transform: lowercase;
   float: left;
   padding: 6px 15px 0 0;
+  text-align: right;
 }
 
 .footer-news label:first-child {

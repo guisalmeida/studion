@@ -15,7 +15,7 @@ $(document).ready(function(){
         dots: false
     });
 
-    $('.depoiments .container').slick({
+    $('.reviews .container').slick({
         prevArrow: "<button class='prev-arrow'></button>",
         nextArrow: "<button class='next-arrow'></button>",
         dots: true

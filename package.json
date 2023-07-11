@@ -1,7 +1,7 @@
 {
   "name": "studion",
   "version": "1.0.0",
-  "description": "Studion Eventos is a fictional site, which is being created to study the practices of basics html5, css3, JS and other knowledge.",
+  "description": "Studion Events is a fictional site, which is being created to study the practices of basics html5, css3, JS and other knowledge.",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",

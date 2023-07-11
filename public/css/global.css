@@ -70,12 +70,8 @@ input, textarea {
 .page-top-title {
   margin: 0 0 30px;
   font-size: 100px;
-  text-transform: lowercase;
-  letter-spacing: -8px;
+  letter-spacing: -4px;
   color: var(--primary);
-}
-.page-top-title::before {
-  content: "."
 }
 
 .page-top-description {
